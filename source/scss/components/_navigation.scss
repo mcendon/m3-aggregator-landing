@@ -137,37 +137,8 @@
 	}
 }
 
-.dropdown-submenu.active > a,
-.dropdown-submenu:hover > a {
-	color: $primary-color;
-}
-
-.dropleft .dropdown-menu,
-.dropright .dropdown-menu {
-  margin: 0;
-}
-
 .dropdown-toggle::after {
 	display: none;
-}
-
-.dropleft .dropdown-toggle::before,
-.dropright .dropdown-toggle::after {
-  font-weight: bold;
-  font-family: "themify";
-  border: 0;
-  font-size: 8px;
-  vertical-align: 1px;
-}
-
-.dropleft .dropdown-toggle::before {
-  content: "\e64a";
-  margin-right: 5px;
-}
-
-.dropright .dropdown-toggle::after {
-  content: "\e649";
-  margin-left: 5px;
 }
 
 // bootstrap override
