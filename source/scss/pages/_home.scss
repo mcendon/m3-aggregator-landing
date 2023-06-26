@@ -266,43 +266,6 @@
 	}
 }
 
-.video-promo {
-	padding: 150px 0;
-
-	.content-block {
-		width: 60%;
-		margin: 0 auto;
-		text-align: center;
-
-		h2 {
-			font-size: 30px;
-			color: $light;
-		}
-
-		p {
-			margin-bottom: 30px;
-		}
-
-		a {
-			i.video {
-				height: 125px;
-				width: 125px;
-				background: $primary-color;
-				display: inline-block;
-				font-size: 40px;
-				color: $light;
-				text-align: center;
-				line-height: 125px;
-				border-radius: 100%;
-			}
-
-			&:focus {
-				outline: 0;
-			}
-		}
-	}
-}
-
 .testimonial {
 	.testimonial-slider {
 		.item {
