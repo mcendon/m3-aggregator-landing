@@ -129,7 +129,7 @@ a {
 
 a:focus,
 a:hover {
-  color: #2e7eed;
+  color: #396a1f;
   text-decoration: none;
 }
 
@@ -138,12 +138,7 @@ a:hover {
 }
 
 .bg-blue {
-  background: #2e7eed;
-}
-
-.bg-1 {
-  background: url(../images/background/promo-video-back.jpg) fixed no-repeat;
-  background-size: cover;
+  background: #396a1f;
 }
 
 .section {
@@ -203,7 +198,7 @@ a:hover {
   height: 125px;
   width: 125px;
   font-size: 40px;
-  background: #2e7eed;
+  background: #396a1f;
   border-radius: 100%;
   color: #fff;
   line-height: 125px;
@@ -231,7 +226,7 @@ a:hover {
   font-size: 14px;
 }
 .form-control.main:focus {
-  border: 1px solid #2e7eed;
+  border: 1px solid #396a1f;
   box-shadow: none;
 }
 
@@ -290,7 +285,7 @@ button:focus,
   padding: 20px 35px;
   font-size: 14px;
   background: #fff;
-  color: #2e7eed;
+  color: #396a1f;
 }
 .btn-download span {
   margin-left: 5px;
@@ -300,7 +295,7 @@ button:focus,
 .btn-main {
   padding: 25px 45px;
   border-radius: 3px;
-  background: #2e7eed;
+  background: #396a1f;
   color: #fff;
   outline: none;
 }
@@ -315,7 +310,7 @@ button:focus,
 .btn-main-md {
   padding: 17px 38px;
   border-radius: 3px;
-  background: #2e7eed;
+  background: #396a1f;
   color: #fff;
   outline: none;
 }
@@ -330,7 +325,7 @@ button:focus,
 .btn-main-sm {
   padding: 15px 35px;
   border-radius: 3px;
-  background: #2e7eed;
+  background: #396a1f;
   color: #fff;
   outline: none;
   font-size: 14px;
@@ -345,7 +340,7 @@ button:focus,
 
 .btn-white {
   background: white;
-  color: #2e7eed;
+  color: #396a1f;
 }
 
 .btn-rounded-icon {
@@ -386,11 +381,11 @@ button:focus,
   font-size: 11px;
 }
 .main-nav .navbar-nav .nav-item.active .nav-link {
-  color: #2e7eed;
+  color: #396a1f;
 }
 .main-nav .navbar-nav .nav-item.active .nav-link:before {
   content: "";
-  background: #2e7eed;
+  background: #396a1f;
   width: 60%;
   height: 2px;
   position: absolute;
@@ -448,7 +443,7 @@ button:focus,
 }
 .main-nav .dropdown .dropdown-menu .dropdown-item.active, .main-nav .dropdown .dropdown-menu .dropdown-item.focus, .main-nav .dropdown .dropdown-menu .dropdown-item:focus, .main-nav .dropdown .dropdown-menu .dropdown-item:hover {
   background-color: transparent;
-  color: #2e7eed;
+  color: #396a1f;
 }
 .main-nav .dropdown .dropdown-menu li:first-child {
   margin-top: 10px;
@@ -574,7 +569,7 @@ button:focus,
   height: 40px;
   line-height: 40px;
   text-align: center;
-  background: #2e7eed;
+  background: #396a1f;
   color: #fff;
   transition: 0.3s;
   z-index: 999556;
@@ -642,6 +637,68 @@ button:focus,
   .cta-community {
     padding: 40px;
   }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-1750px);
+  }
+}
+.logo-slider {
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: auto;
+}
+.logo-slider .logo-slider-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  gap: 20px;
+  width: 3500px;
+}
+.logo-slider .logo-slider-track .slide {
+  height: 100px;
+  width: 100px;
+  border: 1px solid #9dd67d;
+  border-radius: 50px;
+  text-align: center;
+  overflow: hidden;
+  background-size: 85%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.logo-slider .logo-slider-track .slide img {
+  height: auto;
+  max-width: 100%;
+  box-sizing: content-box;
+  border: none;
+}
+.logo-slider .logo-slider-track .slide-ahorramas {
+  background-image: url(../images/markets/ahorramas.png);
+}
+.logo-slider .logo-slider-track .slide-alcampo {
+  background-image: url(../images/markets/alcampo.jpg);
+}
+.logo-slider .logo-slider-track .slide-aldi {
+  background-image: url(../images/markets/aldi.png);
+}
+.logo-slider .logo-slider-track .slide-carrefour {
+  background-image: url(../images/markets/carrefour.png);
+}
+.logo-slider .logo-slider-track .slide-consum {
+  background-image: url(../images/markets/consum.png);
+}
+.logo-slider .logo-slider-track .slide-coviran {
+  background-image: url(../images/markets/coviran.png);
+}
+.logo-slider .logo-slider-track .slide-dia {
+  background-image: url(../images/markets/dia.png);
 }
 
 .jd-modal .modal-content {
@@ -770,7 +827,7 @@ button:focus,
 }
 .services .service-block i {
   font-size: 30px;
-  color: #2e7eed;
+  color: #396a1f;
   margin-bottom: 15px;
   display: inline-block;
 }
@@ -817,7 +874,7 @@ button:focus,
 }
 .service .service-box .service-item i {
   font-size: 20px;
-  color: #2e7eed;
+  color: #396a1f;
   display: inline-block;
   margin-bottom: 10px;
 }
@@ -898,36 +955,6 @@ button:focus,
   margin-bottom: 20px;
 }
 
-.video-promo {
-  padding: 150px 0;
-}
-.video-promo .content-block {
-  width: 60%;
-  margin: 0 auto;
-  text-align: center;
-}
-.video-promo .content-block h2 {
-  font-size: 30px;
-  color: #fff;
-}
-.video-promo .content-block p {
-  margin-bottom: 30px;
-}
-.video-promo .content-block a i.video {
-  height: 125px;
-  width: 125px;
-  background: #2e7eed;
-  display: inline-block;
-  font-size: 40px;
-  color: #fff;
-  text-align: center;
-  line-height: 125px;
-  border-radius: 100%;
-}
-.video-promo .content-block a:focus {
-  outline: 0;
-}
-
 .testimonial .testimonial-slider .item {
   padding-bottom: 10px;
 }
@@ -965,10 +992,10 @@ button:focus,
   color: #161616;
 }
 .testimonial .testimonial-slider .owl-dots .owl-dot:hover span {
-  background: #2e7eed;
+  background: #396a1f;
 }
 .testimonial .testimonial-slider .owl-dots .owl-dot.active span {
-  background: #2e7eed;
+  background: #396a1f;
 }
 
 /* homepage 3 */
@@ -986,7 +1013,7 @@ button:focus,
   width: 200%;
   height: 200%;
   border-radius: 50%;
-  background-image: linear-gradient(45deg, #009EC5 0%, #2e7eed 20%, #02225B 50%);
+  background-image: linear-gradient(45deg, #eeffde 0%, #9dd67d 20%, #396a1f 50%);
 }
 
 .pull-top {
@@ -1120,7 +1147,7 @@ hr {
   display: block;
   height: 2px;
   border: 0;
-  border-top: 2px solid #2e7eed;
+  border-top: 2px solid #396a1f;
   margin: 1em 0;
   padding: 0;
 }
@@ -1129,7 +1156,7 @@ hr {
   height: 80px;
   width: 80px;
   text-align: center;
-  background: #2e7eed;
+  background: #396a1f;
 }
 .icon-box i {
   line-height: 80px;
@@ -1149,10 +1176,10 @@ hr {
   padding: 20px;
 }
 .about .about-slider .owl-dots .owl-dot:hover span {
-  background: #2e7eed;
+  background: #396a1f;
 }
 .about .about-slider .owl-dots .owl-dot.active span {
-  background: #2e7eed;
+  background: #396a1f;
 }
 
 .create-stories .block img {

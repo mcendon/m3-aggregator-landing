@@ -1,0 +1,72 @@
+@keyframes scroll {
+    0% {
+        transform: translateX(0)
+    }
+    100% {
+        transform: translateX(calc(-250px * 7))
+    }
+}
+
+.logo-slider {
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+
+    .logo-slider-track {
+        animation: scroll 40s linear infinite;
+        display: flex;
+        gap: 20px;
+        width: calc(250px * 14);
+
+        .slide {
+            height: 100px;
+            width: 100px;
+            border: 1px solid $terciary-color;
+            border-radius: 50px;
+            text-align: center;
+            overflow: hidden;
+            background-size: 85%;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            img {
+                height: auto;
+                max-width: 100%;
+                box-sizing: content-box;
+                border: none;
+            }
+        }
+
+        .slide-ahorramas {
+            background-image: url(../images/markets/ahorramas.png);
+        }
+
+        .slide-alcampo {
+            background-image: url(../images/markets/alcampo.jpg);
+        }
+
+        .slide-aldi {
+            background-image: url(../images/markets/aldi.png);
+        }
+
+        .slide-carrefour {
+            background-image: url(../images/markets/carrefour.png);
+        }
+
+        .slide-consum {
+            background-image: url(../images/markets/consum.png);
+        }
+
+        .slide-coviran {
+            background-image: url(../images/markets/coviran.png);
+        }
+
+        .slide-dia {
+            background-image: url(../images/markets/dia.png);
+        }
+    }
+}
